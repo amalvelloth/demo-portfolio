@@ -190,7 +190,7 @@ section {
 .project1 img, .project2 img, .project3 img {
   height: 300px;
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
   object-fit: cover;
 }
 
