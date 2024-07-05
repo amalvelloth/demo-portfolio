@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <video autoplay muted loop>
+            <source src="assets/4779866-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h1>Hello,</h1>
+            <h1>My name is AMAL</h1>
+            <h5>Turning ideas into interactive digital experiences.</h5>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="content">
+                <h1>About Me</h1>
+                <p>I'm a passionate MERN stack developer with a strong focus on React.js. I thrive on translating
+                    complex ideas into clean, efficient code that enhances user experiences. With a keen eye for detail
+                    and a commitment to continuous improvement, I enjoy tackling challenges and exploring innovative
+                    solutions in web development. My goal is to create impactful applications that blend creativity with
+                    technical excellence, always aiming to exceed expectations.</p>
+            </div>
+            <div class="image-content">
+                <img src="./assets/6170522_3014252.svg" alt="Developer illustration">
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 style="margin-left: 3.3rem;max-width: 1200px;">Portfolio</h1>
+        <div class="project-contents">
+            <div class="project project1">
+                <!--<img src="https://cdn.dribbble.com/users/1216225/screenshots/6343845/nike-air-max---deluxe-ui_4x.jpg?resize=400x0" alt="">-->
+                <img src="./assets/Screenshot_27-6-2024_164325_127.0.0.1.jpeg" alt="">
+                <h2>E-commerce</h2>
+                <p>An advanced e-commerce platform built with React and Node.js, featuring a robust backend and sleek,
+                    user-friendly interface.</p>
+            </div>
+            <div class="project project2">
+                <img src="https://s3-alpha.figma.com/hub/file/4073589385/c7ac8e24-37db-4924-86c9-92648613086a-cover.png"
+                    alt="">
+                <h2>YouTube Clone</h2>
+                <p>A fully functional YouTube clone that allows users to upload, view, and interact with videos,
+                    leveraging the power of the MERN stack.</p>
+            </div>
+            <div class="project project3">
+                <img src="https://s3-alpha.figma.com/hub/file/2080541657/12505004-d908-4c3f-83fa-eac7bdebcdc4-cover.png"
+                    alt="">
+                <h2>Spotify Clone</h2>
+                <p>A Spotify-like music streaming application, offering a rich user experience with real-time data and
+                    interactive features.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <div class="service-contents">
+            <div class="service1">
+                <h2 style="color: white;font-weight: 800;">Web Development</h2>
+                <p style="color: white;">Creating responsive, dynamic, and high-performance websites using the latest
+                    technologies and best practices.</p>
+            </div>
+            <div class="service2">
+                <h2 style="color: white;font-weight: 800">UI/UX Design</h2>
+                <p style="color: white;">Designing user-centric interfaces that are both aesthetically pleasing and
+                    highly functional.</p>
+            </div>
+            <div class="service3">
+                <h2 style="color: white;font-weight: 800">API Development</h2>
+                <p style="color: white;">Building robust and scalable APIs to support seamless integration and data
+                    exchange between systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1> <br>
+        <h4 style="font-weight: 400; max-width: 768px;">If you want to know more about me or my work, or if you would
+            just
+            like to say hello, send me a message. I'd love to hear from you.</h4>
+        <div class="contact-contents">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea style="height: 100px;" id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h5>Email: hello@gmail.com</h5>
+        <h5>Portfolio | Amal V</h5>
+        <h5>Phone: +7777777777</h5>
+    </footer>
+
+</body>
+
+</html>
